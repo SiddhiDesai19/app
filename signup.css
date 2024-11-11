@@ -1,0 +1,76 @@
+/* Basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), /* Darker overlay */
+    url("images/women-safety-app.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px; /* Increase padding for space around the container */
+}
+
+/* Form container styling */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    max-width: 600px; /* Increased width */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(153, 148, 223, 0.2);
+    text-align: center;
+    margin-top: 20px; /* Adds space above */
+    margin-bottom: 20px; /* Adds space below */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.signup-form input, .signup-form select, .signup-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1a237e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0d1b5a;
+}
